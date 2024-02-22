@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+</head>
+<style>
+    body{
+    background-image: url(bg1.jpg);
+}
+.information{
+    display: flex;
+    color: white;
+    margin-left: 45%;
+}
+.information > h3{
+    padding: 10px;
+}
+.information,h2,a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    color: rgb(141, 205, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about_project{
+    text-align: center;
+    font-weight: bolder;
+    line-height: 25px;
+}
+</style>
+<body>
+    <div style="display: flex;">
+        <div>
+            <img style="width: 50%; border-radius: 50%; margin: 5%;" src="mypic.jpg" alt="">
+        </div>
+        <div class="information">
+            <h3><a class="nav" href="index.html">Home</a></h3>
+            <h3><a class="nav" href="skill.html">Skill</a></h3>
+            <h3><a class="nav" href="interest.html">Interest</a></h3>
+            <h3><a class="nav" href="">Project</a></h3>
+            <h3><a class="nav" href="education.html">Education Background</a></h3>
+            <h3><a class="nav" href="contact.html">Contact</a></h3>
+        </div>
+    </div>
+<div class="about_project">
+    <h2 style="font-size: 60px;color: rgb(250, 140, 5); margin-left:8%;">Projects<hr style="border-style:double; width: 300px;"></h2>
+    <h4 style="font-size:30px; margin-right: 10%; color: rgb(181, 105, 59);">Mobile Shop:</h4>
+    <ul style="text-align: left;margin-left:40%; color: rgb(44, 159, 155); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <li>A MERN project where users are able to select their product in their shopping <br> cart and checkout the cart with their information</li>
+        <li>Different users can create different order pages</li>
+        <li>Users can add products from the admin panel.</li>
+        <li>Used: Html5, CSS, MongoDB, Node.js, Express.js, Bootstrap, React, Firebase</li>
+    </ul>
+</div>
+</body>
+</html>
